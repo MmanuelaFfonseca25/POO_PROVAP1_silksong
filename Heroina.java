@@ -1,7 +1,7 @@
 public class Heroina {
   
     private  String nome;
-    private  int mascaras;
+    private  int mascaras=5;
     private int seda;
     private final static int MIN_MASCARAS=0;
     private final static int MAX_MASCARAS=5;
@@ -73,9 +73,9 @@ public class Heroina {
     public String toString(){
         return String.format("%s | Mascaras: %d/%d | Seda: %d/%d",nome, mascaras , MAX_MASCARAS, seda, MAX_SEDA);
     }
-}
 
- 
+
+}
 
 
 
