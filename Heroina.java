@@ -1,5 +1,9 @@
+import lombok.Getter;
+@Getter 
+
 public class Heroina {
   
+
     private  String nome;
     private  int mascaras=5;
     private int seda;
@@ -8,24 +12,9 @@ public class Heroina {
     private final static int MIN_SEDA=0;
     private final static int MAX_SEDA=9;
 
-
     public Heroina(String nome) {
         this.nome = nome;
     }
-
-    
-    public String getNome(){
-        return nome;
-    }
-
-    public int getMascaras(){
-        return mascaras;
-    }
-
-    public int getSeda(){
-        return seda;
-    }
-
 
     
     
